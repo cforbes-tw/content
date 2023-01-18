@@ -10,7 +10,7 @@ python = "^3.8,<3.11"
 
 [tool.poetry.group.dev.dependencies]
 demisto-sdk = {git = "https://github.com/demisto/demisto-sdk.git", rev = "b362a0b50ce4e9a5054068ac273d66121ce3408d"}
-requests = "^2.22.0"
+requests = "^2.28.2"
 pre-commit = "^2.20.0"
 
 [tool.poetry.group.linters.dependencies]
